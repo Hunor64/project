@@ -1,5 +1,9 @@
 function getFirstElement(arr) {
-  return arr[0];
+  if (arr.length == 0) {
+    return undefined;
+  } else {
+    return arr[0];
+  }
 }
 function writeAllElements(arr) {
   arr.forEach((element) => {
